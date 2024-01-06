@@ -1,0 +1,2 @@
+E:\Projects\nlopt_example\build\Release\nlopt.dll
+E:\Projects\nlopt_example\build\example.dir\Release\example.vcxproj.CopyComplete

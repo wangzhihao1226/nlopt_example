@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5ED829AE-BBE3-30F8-9342-3A8642BE8774}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>example</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\nlopt_example\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\nlopt_example\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\nlopt_example\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\nlopt_example\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/nlopt_example/build/Debug/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/nlopt_example/build/Debug/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/nlopt_example/build/Release/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/nlopt_example/build/Release/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/nlopt_example/build/MinSizeRel/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/nlopt_example/build/MinSizeRel/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\include\eigen3;E:\Projects\nlopt_example\include;D:\Library\Nlopt\install\lib\cmake\nlopt\..\..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Projects/nlopt_example/build/RelWithDebInfo/example.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Projects/nlopt_example/build/RelWithDebInfo/example.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Projects\nlopt_example\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/Projects/nlopt_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SE:/Projects/nlopt_example -BE:/Projects/nlopt_example/build --check-stamp-file E:/Projects/nlopt_example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfig.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfigVersion.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-debug.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-release.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends.cmake;D:\Library\eigen-3.4.0\build\Eigen3Config.cmake;D:\Library\eigen-3.4.0\build\Eigen3ConfigVersion.cmake;D:\Library\eigen-3.4.0\build\Eigen3Targets.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Projects\nlopt_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/Projects/nlopt_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SE:/Projects/nlopt_example -BE:/Projects/nlopt_example/build --check-stamp-file E:/Projects/nlopt_example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfig.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfigVersion.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-debug.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-release.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends.cmake;D:\Library\eigen-3.4.0\build\Eigen3Config.cmake;D:\Library\eigen-3.4.0\build\Eigen3ConfigVersion.cmake;D:\Library\eigen-3.4.0\build\Eigen3Targets.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Projects\nlopt_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/Projects/nlopt_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SE:/Projects/nlopt_example -BE:/Projects/nlopt_example/build --check-stamp-file E:/Projects/nlopt_example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfig.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfigVersion.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-debug.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-release.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends.cmake;D:\Library\eigen-3.4.0\build\Eigen3Config.cmake;D:\Library\eigen-3.4.0\build\Eigen3ConfigVersion.cmake;D:\Library\eigen-3.4.0\build\Eigen3Targets.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Projects\nlopt_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/Projects/nlopt_example/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Cmake\bin\cmake.exe -SE:/Projects/nlopt_example -BE:/Projects/nlopt_example/build --check-stamp-file E:/Projects/nlopt_example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Cmake\share\cmake-3.26\Modules\CMakeCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCXXInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeGenericSystem.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeRCInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake;D:\Cmake\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Compiler\MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\Windows.cmake;D:\Cmake\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfig.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptConfigVersion.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-debug.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends-release.cmake;D:\Library\Nlopt\install\lib\cmake\nlopt\NLoptLibraryDepends.cmake;D:\Library\eigen-3.4.0\build\Eigen3Config.cmake;D:\Library\eigen-3.4.0\build\Eigen3ConfigVersion.cmake;D:\Library\eigen-3.4.0\build\Eigen3Targets.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeCXXCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeRCCompiler.cmake;E:\Projects\nlopt_example\build\CMakeFiles\3.26.0-rc4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Projects\nlopt_example\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Projects\nlopt_example\src\main.cpp" />
+    <ClInclude Include="E:\Projects\nlopt_example\include\nmpc\nmpc_controller.h" />
+    <ClInclude Include="E:\Projects\nlopt_example\include\nmpc\obstacle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Projects\nlopt_example\build\ZERO_CHECK.vcxproj">
+      <Project>{0CE7AA9F-BC21-30D9-80A1-5A1F743C3F52}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,2 @@
+E:\Projects\nlopt_example\build\Debug\nlopt.dll
+E:\Projects\nlopt_example\build\nmpc.dir\Debug\nmpc.vcxproj.CopyComplete
