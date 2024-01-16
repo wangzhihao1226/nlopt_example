@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\Projects\nlopt_example\src\main.cpp">
+    <ClCompile Include="D:\projects\nlopt_example\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\Projects\nlopt_example\include\nmpc\nmpc_controller.h">
+    <ClInclude Include="D:\projects\nlopt_example\include\nmpc\nmpc_controller.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\Projects\nlopt_example\include\nmpc\obstacle.h">
+    <ClInclude Include="D:\projects\nlopt_example\include\nmpc\obstacle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\Projects\nlopt_example\CMakeLists.txt" />
+    <CustomBuild Include="D:\projects\nlopt_example\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{781F787C-4518-3E94-8ADA-BDB31B6B23A7}</UniqueIdentifier>
+      <UniqueIdentifier>{DABA0815-174D-377F-9CF8-AA97BE08093D}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{1BCEE517-3CA3-3722-92F9-B2F8E3081695}</UniqueIdentifier>
+      <UniqueIdentifier>{C21D7C2C-AFA0-33E4-96E9-C9439B294DCA}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

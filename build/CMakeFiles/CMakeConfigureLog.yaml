@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.22621 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -23,45 +23,46 @@ events:
       
       The output was:
       0
-      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
-      版权所有(C) Microsoft Corporation。保留所有权利。
+      适用于 .NET Framework MSBuild 版本 17.8.3+195e7f5a3
+      生成启动时间为 2024/1/16 14:57:28。
       
-      生成启动时间为 2023/12/17 18:38:52。
-      节点 1 上的项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      节点 1 上的项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
         正在创建目录“Debug\\CompilerIdC.tlog\\”。
       InitializeBuildStatus:
         正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”执行 Touch 任务。
       VcpkgTripletSelection:
-        Using triplet "x64-windows" from "D:\\vcpkg\\installed\\x64-windows\\"
+        Using triplet "x64-windows" from "D:\\library\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
       ClCompile:
-        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\library\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdC\\CompilerIdC.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\library\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
         或批处理文件。
-        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdC\\CompilerIdC.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
         正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
-      已完成生成项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      已完成生成项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
       
       已成功生成。
           0 个警告
           0 个错误
       
-      已用时间 00:00:01.86
+      已用时间 00:00:01.51
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -69,14 +70,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        E:/Projects/nlopt_example/build/CMakeFiles/3.26.0-rc4/CompilerIdC/CompilerIdC.exe
+        D:/projects/nlopt_example/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -86,45 +87,46 @@ events:
       
       The output was:
       0
-      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
-      版权所有(C) Microsoft Corporation。保留所有权利。
+      适用于 .NET Framework MSBuild 版本 17.8.3+195e7f5a3
+      生成启动时间为 2024/1/16 14:57:30。
       
-      生成启动时间为 2023/12/17 18:38:54。
-      节点 1 上的项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      节点 1 上的项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
       PrepareForBuild:
         正在创建目录“Debug\\”。
+        已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
         正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
       InitializeBuildStatus:
         正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        正在对“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”执行 Touch 任务。
       VcpkgTripletSelection:
-        Using triplet "x64-windows" from "D:\\vcpkg\\installed\\x64-windows\\"
+        Using triplet "x64-windows" from "D:\\library\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
       ClCompile:
-        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\library\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "D:\\library\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
         'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
         或批处理文件。
-        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
         正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
-      已完成生成项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\3.26.0-rc4\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      已完成生成项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
       
       已成功生成。
           0 个警告
           0 个错误
       
-      已用时间 00:00:01.53
+      已用时间 00:00:01.25
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -132,19 +134,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        E:/Projects/nlopt_example/build/CMakeFiles/3.26.0-rc4/CompilerIdCXX/CompilerIdCXX.exe
+        D:/projects/nlopt_example/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-0gzzzw"
-      binary: "E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-0gzzzw"
+      source: "D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-lbz4si"
+      binary: "D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-lbz4si"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -153,60 +155,62 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-0gzzzw
+        Change Dir: 'D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-lbz4si'
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_33557.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
-        版权所有(C) Microsoft Corporation。保留所有权利。
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9fa77.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.8.3+195e7f5a3
+        生成启动时间为 2024/1/16 14:57:32。
         
-        生成启动时间为 2023/12/17 18:38:56。
-        节点 1 上的项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\cmTC_33557.vcxproj”(默认目标)。
+        节点 1 上的项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\cmTC_9fa77.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_33557.dir\\Debug\\”。
-          正在创建目录“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\Debug\\”。
-          正在创建目录“cmTC_33557.dir\\Debug\\cmTC_33557.tlog\\”。
+          正在创建目录“cmTC_9fa77.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\Debug\\”。
+          正在创建目录“cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_33557.dir\\Debug\\cmTC_33557.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\unsuccessfulbuild”执行 Touch 任务。
         VcpkgTripletSelection:
-          Using triplet "x64-windows" from "D:\\vcpkg\\installed\\x64-windows\\"
+          Using triplet "x64-windows" from "D:\\library\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33557.dir\\Debug\\\\" /Fd"cmTC_33557.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
-          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30137 版
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\library\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9fa77.dir\\Debug\\\\" /Fd"cmTC_9fa77.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\library\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.38.33134 版
           版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /I"D:\\library\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9fa77.dir\\Debug\\\\" /Fd"cmTC_9fa77.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\library\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
-          cl /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_33557.dir\\Debug\\\\" /Fd"cmTC_33557.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Cmake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\Debug\\cmTC_33557.exe" /INCREMENTAL /ILK:"cmTC_33557.dir\\Debug\\cmTC_33557.ilk" /NOLOGO /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-0gzzzw/Debug/cmTC_33557.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-0gzzzw/Debug/cmTC_33557.lib" /MACHINE:X64  /machine:x64 cmTC_33557.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_33557.vcxproj -> E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\Debug\\cmTC_33557.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\Debug\\cmTC_9fa77.exe" /INCREMENTAL /ILK:"cmTC_9fa77.dir\\Debug\\cmTC_9fa77.ilk" /NOLOGO /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\library\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-lbz4si/Debug/cmTC_9fa77.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-lbz4si/Debug/cmTC_9fa77.lib" /MACHINE:X64  /machine:x64 cmTC_9fa77.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9fa77.vcxproj -> D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\Debug\\cmTC_9fa77.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\Debug\\cmTC_33557.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_33557.dir\\Debug\\cmTC_33557.tlog\\cmTC_33557.write.1u.tlog" "cmTC_33557.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\Debug\\cmTC_9fa77.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\cmTC_9fa77.write.1u.tlog" "cmTC_9fa77.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
           或批处理文件。
-          命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\Debug\\cmTC_33557.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_33557.dir\\Debug\\cmTC_33557.tlog\\cmTC_33557.write.1u.tlog" "cmTC_33557.dir\\Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\Debug\\cmTC_33557.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_33557.dir\\Debug\\cmTC_33557.tlog\\cmTC_33557.write.1u.tlog" "cmTC_33557.dir\\Debug\\vcpkg.applocal.log"
+          命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\Debug\\cmTC_9fa77.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\cmTC_9fa77.write.1u.tlog" "cmTC_9fa77.dir\\Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\Debug\\cmTC_9fa77.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\cmTC_9fa77.write.1u.tlog" "cmTC_9fa77.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          正在删除文件“cmTC_33557.dir\\Debug\\cmTC_33557.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_33557.dir\\Debug\\cmTC_33557.tlog\\cmTC_33557.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0gzzzw\\cmTC_33557.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_9fa77.dir\\Debug\\cmTC_9fa77.tlog\\cmTC_9fa77.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lbz4si\\cmTC_9fa77.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:01.55
+        已用时间 00:00:01.35
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "D:/Cmake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/library/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-dsvymf"
-      binary: "E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-dsvymf"
+      source: "D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-5xonhg"
+      binary: "D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-5xonhg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -215,47 +219,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-dsvymf
+        Change Dir: 'D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-5xonhg'
         
-        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_df726.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
-        版权所有(C) Microsoft Corporation。保留所有权利。
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0bd5d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.8.3+195e7f5a3
+        生成启动时间为 2024/1/16 14:57:33。
         
-        生成启动时间为 2023/12/17 18:38:58。
-        节点 1 上的项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\cmTC_df726.vcxproj”(默认目标)。
+        节点 1 上的项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\cmTC_0bd5d.vcxproj”(默认目标)。
         PrepareForBuild:
-          正在创建目录“cmTC_df726.dir\\Debug\\”。
-          正在创建目录“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\Debug\\”。
-          正在创建目录“cmTC_df726.dir\\Debug\\cmTC_df726.tlog\\”。
+          正在创建目录“cmTC_0bd5d.dir\\Debug\\”。
+          已启用结构化输出。编译器诊断的格式设置将反映错误层次结构。有关详细信息，请参阅 https://aka.ms/cpp/structured-output。
+          正在创建目录“D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\Debug\\”。
+          正在创建目录“cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\”。
         InitializeBuildStatus:
-          正在创建“cmTC_df726.dir\\Debug\\cmTC_df726.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在创建“cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\unsuccessfulbuild”执行 Touch 任务。
         VcpkgTripletSelection:
-          Using triplet "x64-windows" from "D:\\vcpkg\\installed\\x64-windows\\"
+          Using triplet "x64-windows" from "D:\\library\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Release"
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_df726.dir\\Debug\\\\" /Fd"cmTC_df726.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
-          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30137 版
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\CL.exe /c /I"D:\\library\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0bd5d.dir\\Debug\\\\" /Fd"cmTC_0bd5d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\library\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.38.33134 版
           版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /I"D:\\library\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0bd5d.dir\\Debug\\\\" /Fd"cmTC_0bd5d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\library\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
-          cl /c /I"D:\\vcpkg\\installed\\x64-windows\\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_df726.dir\\Debug\\\\" /Fd"cmTC_df726.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Cmake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\Debug\\cmTC_df726.exe" /INCREMENTAL /ILK:"cmTC_df726.dir\\Debug\\cmTC_df726.ilk" /NOLOGO /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-dsvymf/Debug/cmTC_df726.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-dsvymf/Debug/cmTC_df726.lib" /MACHINE:X64  /machine:x64 cmTC_df726.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_df726.vcxproj -> E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\Debug\\cmTC_df726.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\Debug\\cmTC_0bd5d.exe" /INCREMENTAL /ILK:"cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.ilk" /NOLOGO /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"D:\\library\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "D:\\library\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-5xonhg/Debug/cmTC_0bd5d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/projects/nlopt_example/build/CMakeFiles/CMakeScratch/TryCompile-5xonhg/Debug/cmTC_0bd5d.lib" /MACHINE:X64  /machine:x64 cmTC_0bd5d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0bd5d.vcxproj -> D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\Debug\\cmTC_0bd5d.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\Debug\\cmTC_df726.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_df726.dir\\Debug\\cmTC_df726.tlog\\cmTC_df726.write.1u.tlog" "cmTC_df726.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\Debug\\cmTC_0bd5d.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\cmTC_0bd5d.write.1u.tlog" "cmTC_0bd5d.dir\\Debug\\vcpkg.applocal.log"
           'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
           或批处理文件。
-          命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\Debug\\cmTC_df726.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_df726.dir\\Debug\\cmTC_df726.tlog\\cmTC_df726.write.1u.tlog" "cmTC_df726.dir\\Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\Debug\\cmTC_df726.exe" "D:\\vcpkg\\installed\\x64-windows\\bin" "cmTC_df726.dir\\Debug\\cmTC_df726.tlog\\cmTC_df726.write.1u.tlog" "cmTC_df726.dir\\Debug\\vcpkg.applocal.log"
+          命令“pwsh.exe -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\Debug\\cmTC_0bd5d.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\cmTC_0bd5d.write.1u.tlog" "cmTC_0bd5d.dir\\Debug\\vcpkg.applocal.log"”已退出，代码为 9009。
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "D:\\library\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\Debug\\cmTC_0bd5d.exe" "D:\\library\\vcpkg\\installed\\x64-windows\\bin" "cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\cmTC_0bd5d.write.1u.tlog" "cmTC_0bd5d.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          正在删除文件“cmTC_df726.dir\\Debug\\cmTC_df726.tlog\\unsuccessfulbuild”。
-          正在对“cmTC_df726.dir\\Debug\\cmTC_df726.tlog\\cmTC_df726.lastbuildstate”执行 Touch 任务。
-        已完成生成项目“E:\\Projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dsvymf\\cmTC_df726.vcxproj”(默认目标)的操作。
+          正在删除文件“cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_0bd5d.dir\\Debug\\cmTC_0bd5d.tlog\\cmTC_0bd5d.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“D:\\projects\\nlopt_example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5xonhg\\cmTC_0bd5d.vcxproj”(默认目标)的操作。
         
         已成功生成。
             0 个警告
             0 个错误
         
-        已用时间 00:00:01.52
+        已用时间 00:00:01.20
         
       exitCode: 0
 ...

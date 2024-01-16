@@ -1,6 +1,6 @@
-^E:\PROJECTS\NLOPT_EXAMPLE\CMAKELISTS.TXT
+^D:\PROJECTS\NLOPT_EXAMPLE\CMAKELISTS.TXT
 setlocal
-D:\Cmake\bin\cmake.exe -SE:/Projects/nlopt_example -BE:/Projects/nlopt_example/build --check-stamp-file E:/Projects/nlopt_example/build/CMakeFiles/generate.stamp
+D:\library\CMake\bin\cmake.exe -SD:/projects/nlopt_example -BD:/projects/nlopt_example/build --check-stamp-file D:/projects/nlopt_example/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
