@@ -1,6 +1,0 @@
-D:\projects\nlopt_example\src\nmpc\nmpc_main.cpp;D:\projects\nlopt_example\build\nmpc.dir\Debug\nmpc_main.obj
-D:\projects\nlopt_example\src\nmpc\nmpc_controller.cpp;D:\projects\nlopt_example\build\nmpc.dir\Debug\nmpc_controller.obj
-D:\projects\nlopt_example\src\nmpc\vehicle_model.cpp;D:\projects\nlopt_example\build\nmpc.dir\Debug\vehicle_model.obj
-D:\projects\nlopt_example\src\nmpc\nmpc_utils.cpp;D:\projects\nlopt_example\build\nmpc.dir\Debug\nmpc_utils.obj
-D:\projects\nlopt_example\src\nmpc\reference_trajectory_generator.cpp;D:\projects\nlopt_example\build\nmpc.dir\Debug\reference_trajectory_generator.obj
-D:\projects\nlopt_example\src\nmpc\obstacle.cpp;D:\projects\nlopt_example\build\nmpc.dir\Debug\obstacle.obj
