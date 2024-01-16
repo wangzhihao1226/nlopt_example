@@ -33,7 +33,7 @@
 
 # wzh
 */Output/*
-build/*
+*/build/*
 */.vscode/*
 */.vs/*
 */x64/*
